@@ -1,5 +1,5 @@
 <template>
-<div class="bg-white container-fluid mh-100 py-5" id="menu">
+<div class="bg-white container-fluid mh-100 py-5">
   <div data-aos="fade">
     <h2 class="cursive text-center">
       Menu

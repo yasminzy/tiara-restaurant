@@ -30,11 +30,6 @@ body {
   overflow-x: hidden;
 }
 
-a,
-a:hover {
-  text-decoration: none;
-}
-
 p {
   max-width: 80ch;
 }

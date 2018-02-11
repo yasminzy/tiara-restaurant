@@ -1,5 +1,5 @@
 <template>
-<nav v-bind:class="[{'bg-white': scrollPosition > headerHeight}, 'navbar', 'fixed-top', 'navbar-expand-sm', 'navbar-light', 'w-100']" data-aos="fade-down" data-aos-duration="800">
+<nav class="navbar fixed-top navbar-expand-sm navbar-light w-100" v-bind:class="{'bg-white': scrollPosition > headerHeight}" data-aos="fade-down" data-aos-duration="800">
   <router-link class="navbar-brand" to="/">
     <img class="d-inline-block align-top" src="@/assets/logo.png" alt="Logo" width="30" height="30" />
 
@@ -38,7 +38,6 @@ export default {
       ],
       scrollPosition: 0,
       headerHeight: 0
-      // menuOffset: 0
     };
   },
   mounted() {
@@ -58,8 +57,6 @@ export default {
     },
     updateSize() {
       this.headerHeight = document.getElementById("header").clientHeight;
-      // let offset = document.getElementById("menu").getBoundingClientRect();
-      // this.menuOffset = offset.y;
     }
   }
 };
@@ -68,12 +65,5 @@ export default {
 <style lang="scss" scoped>
 .name {
   letter-spacing: 0.125rem;
-}
-
-span.text-white {
-  color: inherit;
-  @media (min-width: 1200px) {
-    color: white;
-  }
 }
 </style>
