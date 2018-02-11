@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 hr {
-  background-color: #a1887f;
+  background-color: #795548;
   max-width: 50px;
 }
 
