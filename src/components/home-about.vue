@@ -42,7 +42,7 @@ export default {};
 }
 
 .wrapper {
-  background: url("../assets/interior.jpg") fixed no-repeat center center;
+  background: url("../assets/img/interior.jpg") fixed no-repeat center center;
   background-size: cover;
   display: grid;
   grid-row-gap: 3rem;

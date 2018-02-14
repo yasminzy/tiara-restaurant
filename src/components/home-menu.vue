@@ -8,8 +8,8 @@
     <hr class="mb-5">
   </div>
 
-  <home-menu-type name="dinner" title="FOOD &amp; APERITIVES"  data-aos="fade-down-right" />
-  <home-menu-type name="dessert" title="DESSERTS"  data-aos="fade-down-left" />
+  <home-menu-type type="dinner" title="FOOD &amp; APERITIVES" data-aos="fade-down-right" />
+  <home-menu-type type="dessert" title="DESSERTS" data-aos="fade-down-left" />
 </div>
 </template>
 
@@ -30,7 +30,7 @@ hr {
 }
 
 .container-fluid {
-  background: url("../assets/menu.jpg") no-repeat center center;
+  background: url("../assets/img/menu.jpg") no-repeat center center;
   background-size: cover;
 }
 </style>

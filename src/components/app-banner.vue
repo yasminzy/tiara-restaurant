@@ -1,5 +1,4 @@
 <template>
-<!-- <div class="container-fluid d-flex justify-content-center align-items-center py-5 mh-75" v-bind:id="urlize(name)"> -->
 <div v-bind:class="'container-fluid d-flex justify-content-center align-items-center py-5 mh-' + height" v-bind:id="urlize(name)">
   <div class="container" data-aos="fade">
     <h2 class="mb-0 text-center text-uppercase text-white" v-show="!empty">{{ name }}</h2>
@@ -8,7 +7,7 @@
 </template>
 
 <script>
-import { urlize } from "@/functions";
+import { urlize } from "@/assets/js/functions";
 
 export default {
   props: {
@@ -33,11 +32,15 @@ export default {
 
 <style lang="scss" scoped>
 #our-specialities {
-  background-image: url("../assets/our-specialities.jpg");
+  background-image: url("../assets/img/our-specialities.jpg");
 }
 
 #outdoor {
-  background-image: url("../assets/outdoor.jpg");
+  background-image: url("../assets/img/outdoor.jpg");
+}
+
+#outdoor {
+  background-image: url("../assets/img/outdoor.jpg");
 }
 
 .container-fluid {

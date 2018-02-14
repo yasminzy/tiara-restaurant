@@ -3,10 +3,12 @@ function filter(input, amount) {
 }
 
 function urlize(input) {
-  return input
-    .toLowerCase()
-    .replace(/\s/g, "-")
-    .replace(/\./g, "");
+  if (input) {
+    return input
+      .toLowerCase()
+      .replace(/\s/g, "-")
+      .replace(/\./g, "");
+  }
 }
 
 export { filter, urlize };

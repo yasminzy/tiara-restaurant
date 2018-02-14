@@ -1,32 +1,53 @@
 <template>
-<div class="container-fluid mh-100 py-5">
-  <div class=" container mt-5">
-    <h1 class="cursive">Contact</h1>
+<div class="container-fluid bg mh-100 px-0">
+  <div class="container-fluid content py-5 mh-100">
+    <div class=" container mt-5">
+      <h1 class="mb-5">Contact Us</h1>
 
-    <p>WIP</p>
-
-    <!-- <gmap-map class="mx-auto" v-bind:center="center" v-bind:zoom="7" style="height: 225px; max-width: 400px; width: 100%;">
-      <gmap-marker v-bind:key="index" v-for="(m, index) in markers" v-bind:position="m.position" v-bind:clickable="true" />
-    </gmap-map> -->
+      <div class="row">
+        <contact-form />
+        <contact-tel />
+      </div>
+    </div>
   </div>
 </div>
 </template>
 
 <script>
+import ContactForm from "@/components/contact-form.vue";
+import ContactTel from "@/components/contact-tel.vue";
+
 export default {
-  data() {
-    return {
-      center: { lat: -0.494823, lng: 117.143615 },
-      markers: [
-        {
-          position: { lat: -0.494823, lng: 117.143615 }
-        }
-      ]
-    };
+  components: {
+    ContactForm,
+    ContactTel
   }
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.container-fluid.bg {
+  background: url("../assets/img/contact.jpg") no-repeat center center;
+  background-size: cover;
+}
 
+.content {
+  background-color: rgba(255, 255, 255, 0.75);
+
+  @media (min-width: 768px) {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  @media (min-width: 1200px) {
+    background-color: transparent;
+  }
+}
+
+h1 {
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: initial;
+  }
+}
 </style>

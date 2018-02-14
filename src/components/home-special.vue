@@ -3,11 +3,11 @@
   <div class="container wrapper p-0">
     <div class="item" v-for="(item, index) in special(menu)" v-bind:key="index">
      <div class="bg-white img-wrapper" data-aos="fade-up-right">
-       <img class="d-block img-fluid hvr-grow mx-auto" v-bind:src="'img/' + urlize(item) + '.jpg'" v-bind:alt="item.title">
+       <img class="d-block img-fluid hvr-grow mx-auto" v-bind:src="'img/' + urlize(item.name) + '.jpg'" v-bind:alt="item.name">
       </div>
 
       <div class="bg-white d-flex flex-column justify-content-between align-items-center p-3 p-lg-4 p-xl-5 text-center" data-aos="fade-up-left">
-        <h3 class="h4 mb-0">{{ item.title }}</h3>
+        <h3 class="h4 mb-0">{{ item.name }}</h3>
 
         <p class="my-3 text-muted">{{ item.description }}</p>
         <p class="font-weight-bold mb-0 text-primary">From ${{ item.price }}</p>
@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import { menu } from "@/data";
-import { urlize } from "@/functions";
+import { menu } from "@/assets/js/data";
+import { urlize } from "@/assets/js/functions";
 
 export default {
   data() {

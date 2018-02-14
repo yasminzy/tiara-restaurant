@@ -10,17 +10,9 @@ import "popper.js/dist/popper.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
 // import "bootstrap/dist/css/bootstrap.css";
 
-import "./custom-bootstrap.css";
+import "./assets/css/custom-bootstrap.css";
 
-import "hover.css/css/hover-min.css";
-
-import * as VueGoogleMaps from "vue2-google-maps";
-Vue.use(VueGoogleMaps, {
-  load: {
-    key: "AIzaSyBuLE0a2oN-c7WJZfINQxtLOGJTwNfaBxQ",
-    libraries: "places"
-  }
-});
+// import "hover.css/css/hover-min.css";
 
 Vue.config.productionTip = false;
 

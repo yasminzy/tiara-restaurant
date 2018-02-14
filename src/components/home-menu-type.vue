@@ -1,17 +1,17 @@
 <template>
 <div class="container">
-  <h3 class="h5 text-center text-muted mb-4">{{ title }}</h3>
+  <h3 class="h5 mb-4 text-center text-muted text-uppercase">{{ title }}</h3>
 
   <ul class="list-group mb-5 wrapper">
-    <li class="bg-transparent border-0 list-group-item d-flex justify-content-between align-items-center" v-if="item.type == name" v-for="(item, index) in menu" v-bind:key="index">
+    <li class="bg-transparent border-0 d-flex justify-content-between align-items-center list-group-item" v-for="(item, index) in typeFilter(menu, type)" v-bind:key="index">
       <div>
-        <p class="font-weight-bold">{{ item.title }}</p>
+        <p class="font-weight-bold mb-2">{{ item.name }}</p>
 
         <small class="text-muted">{{ item.description }}</small>
       </div>
 
       <span class="badge text-primary cursive">
-        ${{ item.price || 15 }}
+        £{{ item.price }}
       </span>
     </li>
   </ul>
@@ -19,11 +19,11 @@
 </template>
 
 <script>
-import { menu } from "@/data";
+import { menu } from "@/assets/js/data";
 
 export default {
   props: {
-    name: {
+    type: {
       type: String,
       required: true
     },
@@ -36,6 +36,11 @@ export default {
     return {
       menu
     };
+  },
+  methods: {
+    typeFilter(input, word) {
+      return input.filter(item => item.type == word);
+    }
   }
 };
 </script>
