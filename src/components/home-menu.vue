@@ -30,7 +30,6 @@ hr {
 }
 
 .container-fluid {
-  background: url("../assets/img/menu.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("../assets/img/menu.jpg") center center no-repeat;
 }
 </style>

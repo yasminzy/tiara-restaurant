@@ -47,6 +47,15 @@ p {
   min-height: 100vh;
 }
 
+.parallax {
+  background: center center no-repeat;
+  background-size: cover;
+
+  @media (min-width: 576px) {
+    background-attachment: fixed;
+  }
+}
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;

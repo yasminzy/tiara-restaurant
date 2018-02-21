@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid bg mh-100 px-0">
+<div class="bg container-fluid mh-100 px-0">
   <div class="container-fluid content py-5 mh-100">
   <div class="container mt-5">
     <h1 class="mb-5">Reservations</h1>
@@ -23,20 +23,13 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.container-fluid.bg {
-  background: url("../assets/img/reservations.jpg") no-repeat center center;
-  background-size: cover;
+.bg.container-fluid {
+  background: url("../assets/img/reservations.jpg") center center no-repeat;
 }
 
 .content {
-  background-color: rgba(255, 255, 255, 0.5);
-
-  @media (min-width: 768px) {
-    // background-color: rgba(255, 255, 255, 0.5);
-  }
-
-  @media (min-width: 1200px) {
-    // background-color: transparent;
+  @media (min-width: 576px) {
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
 </style>

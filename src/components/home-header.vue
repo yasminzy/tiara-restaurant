@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid d-flex flex-column justify-content-center align-items-center" id="header">
+<div class="container-fluid d-flex flex-column justify-content-center align-items-center parallax" id="header">
   <div class="container text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
     <h1 class="cursive font-weight-bold">Tiara's</h1>
 
@@ -14,8 +14,7 @@ export default {};
 
 <style lang="scss" scoped>
 .container-fluid {
-  background: url("../assets/img/header.jpg") fixed no-repeat center center;
-  background-size: cover;
+  background-image: url("../assets/img/header.jpg");
   min-height: 100vh;
 
   @media (min-width: 576px) {

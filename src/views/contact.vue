@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid bg mh-100 px-0">
+<div class="bg container-fluid mh-100 px-0">
   <div class="container-fluid content py-5 mh-100">
     <div class=" container mt-5">
       <h1 class="mb-5">Contact Us</h1>
@@ -26,9 +26,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container-fluid.bg {
-  background: url("../assets/img/contact.jpg") no-repeat center center;
-  background-size: cover;
+.bg.container-fluid {
+  background: url("../assets/img/contact.jpg") center center no-repeat;
 }
 
 .content {

@@ -1,6 +1,6 @@
 <template>
 <div class="bg-light container-fluid d-flex justify-content-center" id="reservation-about">
-  <div class="container px-0 text-center wrapper">
+  <div class="container parallax px-0 text-center wrapper">
     <div class="bg container py-5" data-aos="fade-left">
       <h2 class="cursive font-weight-bold mb-4">Reservations</h2>
 
@@ -42,8 +42,7 @@ export default {};
 }
 
 .wrapper {
-  background: url("../assets/img/interior.jpg") fixed no-repeat center center;
-  background-size: cover;
+  background-image: url("../assets/img/interior.jpg");
   display: grid;
   grid-row-gap: 3rem;
 
