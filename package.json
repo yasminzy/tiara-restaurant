@@ -12,7 +12,7 @@
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.13.0",
-    "vue": "^2.5.13",
+    "vue": "^2.5.15",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
@@ -21,16 +21,26 @@
     "@vue/cli-service": "^3.0.0-beta.6",
     "@vue/eslint-config-prettier": "^3.0.0-beta.6",
     "lint-staged": "^6.0.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.8.1",
     "sass-loader": "^6.0.7",
-    "vue-template-compiler": "^2.5.13"
+    "vue-template-compiler": "^2.5.15"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["vue-cli-service lint", "git add"],
-    "*.vue": ["vue-cli-service lint", "git add"]
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
   }
 }
