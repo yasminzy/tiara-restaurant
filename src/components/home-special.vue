@@ -3,7 +3,7 @@
   <div class="container wrapper p-0">
     <div class="item" v-for="(item, index) in special(menu)" v-bind:key="index">
      <div class="bg-white img-wrapper" data-aos="fade-up-right">
-       <img class="d-block img-fluid hvr-grow mx-auto" v-bind:src="'img/' + urlize(item.name) + '.jpg'" v-bind:alt="item.name">
+       <img class="d-block img-fluid hvr-grow mx-auto" v-lazy="'img/' + urlize(item.name) + '.jpg'" v-bind:alt="item.name">
       </div>
 
       <div class="bg-white d-flex flex-column justify-content-between align-items-center p-3 p-lg-4 p-xl-5 text-center" data-aos="fade-up-left">

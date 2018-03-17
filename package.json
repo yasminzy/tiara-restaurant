@@ -23,6 +23,7 @@
     "lint-staged": "^6.0.0",
     "node-sass": "^4.8.2",
     "sass-loader": "^6.0.7",
+    "vue-lazyload": "^1.2.2",
     "vue-template-compiler": "^2.5.16"
   },
   "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
