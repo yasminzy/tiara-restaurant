@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar fixed-top navbar-expand-sm navbar-light w-100" v-bind:class="{'bg-white': scrollPosition > headerHeight}" data-aos="fade-down" data-aos-duration="300">
   <router-link class="navbar-brand" to="/">
-    <img class="d-inline-block align-top" src="../assets/img/logo.png" alt="Logo" width="30" height="30" />
+    <img class="d-inline-block align-top" src="../assets/img/logo.png" alt="Logo" width="30" height="30"/>
 
     <span class="cursive font-weight-bold name">Tiara's</span>
   </router-link>

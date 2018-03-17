@@ -8,8 +8,8 @@
     <hr class="mb-5">
   </div>
 
-  <home-menu-type type="dinner" title="FOOD &amp; APERITIVES" data-aos="fade-down-right" />
-  <home-menu-type type="dessert" title="DESSERTS" data-aos="fade-down-left" />
+  <home-menu-type type="dinner" title="FOOD &amp; APERITIVES" data-aos="fade-down-right"/>
+  <home-menu-type type="dessert" title="DESSERTS" data-aos="fade-down-left"/>
 </div>
 </template>
 

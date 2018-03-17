@@ -5,8 +5,8 @@
       <h1 class="mb-5">Contact Us</h1>
 
       <div class="row">
-        <contact-form />
-        <contact-tel />
+        <contact-form/>
+        <contact-tel/>
       </div>
     </div>
   </div>

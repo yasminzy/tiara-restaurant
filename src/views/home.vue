@@ -1,11 +1,11 @@
 <template>
 <div>
-  <home-header />
-  <home-about />
-  <app-banner name="our specialities" />
-  <home-special />
-  <app-banner name="outdoor" v-bind:height="50" empty />
-  <home-menu />
+  <home-header/>
+  <home-about/>
+  <app-banner name="our specialities"/>
+  <home-special/>
+  <app-banner name="outdoor" v-bind:height="50" empty/>
+  <home-menu/>
 </div>
 </template>
 
