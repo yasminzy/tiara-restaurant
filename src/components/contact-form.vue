@@ -13,6 +13,7 @@
       <textarea class="bg-transparent form-control" id="message" rows="3" name="message" placeholder="Message" required></textarea>
     </div>
 
+    <input type="hidden" name="_subject" value="Tiara - Contact"/>
     <input type="hidden" name="_next" value="https://tiara.netlify.com/sent"/>
 
     <button type="submit" class="bg-transparent btn pl-0">
