@@ -6,7 +6,7 @@
 
       <p class="text-muted mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
-      <router-link class="btn btn-outline-primary " to="reservation">BOOK A TABLE</router-link>
+      <router-link class="btn btn-outline-primary " to="reservations">BOOK A TABLE</router-link>
     </div>
 
     <div class="empty"></div>
