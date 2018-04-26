@@ -16,12 +16,14 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./assets/scss/custom-bootstrap";
+
 [v-cloak] {
   display: none;
 }
 
 ::selection {
-  background-color: #a1887f;
+  background-color: $primary;
   color: white;
 }
 

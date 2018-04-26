@@ -8,7 +8,6 @@ import "aos/dist/aos.css";
 import "jquery/dist/jquery.slim.min.js";
 import "popper.js/dist/popper.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./assets/css/custom-bootstrap.css";
 
 import VueLazyload from "vue-lazyload";
 Vue.use(VueLazyload);
