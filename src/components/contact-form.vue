@@ -18,7 +18,7 @@
 
     <button type="submit" class="bg-transparent btn pl-0">
       SEND
-      <i class="icon ion-arrow-right-c"></i>
+      <i class="icon ion-md-arrow-forward"></i>
     </button>
   </form>
 </div>
