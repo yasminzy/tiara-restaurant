@@ -1,18 +1,17 @@
 <template>
-<div class="bg container-fluid mh-100 px-0">
-  <div class="container-fluid content d-flex align-items-center py-5 mh-100">
-  <div class="container mt-5 text-center">
-    <h1 class="mb-5">Your Message is Sent</h1>
+  <div class="bg container-fluid mh-100 px-0">
+    <div class="container-fluid content d-flex align-items-center py-5 mh-100">
+      <div class="container mt-5 text-center">
+        <h1 class="mb-5">Your Message is Sent</h1>
 
-    <p class="mb-4 mx-auto" data-aos="fade-left">Thank you for contacting us. We will get back to you soon. Have a nice day.</p>
+        <p
+          class="mb-4 mx-auto"
+          data-aos="fade-left"
+        >Thank you for contacting us. We will get back to you soon. Have a nice day.</p>
+      </div>
+    </div>
   </div>
-</div>
-</div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style lang="scss" scoped>
 .bg.container-fluid {

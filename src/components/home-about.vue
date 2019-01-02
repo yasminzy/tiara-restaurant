@@ -1,29 +1,27 @@
 <template>
-<div class="bg-light container-fluid d-flex justify-content-center" id="reservation-about">
-  <div class="container parallax px-0 text-center wrapper">
-    <div class="bg container py-5" data-aos="fade-left">
-      <h2 class="cursive font-weight-bold mb-4">Reservations</h2>
+  <div id="reservation-about" class="bg-light container-fluid d-flex justify-content-center">
+    <div class="container parallax px-0 text-center wrapper">
+      <div class="bg container py-5" data-aos="fade-left">
+        <h2 class="cursive font-weight-bold mb-4">Reservations</h2>
 
-      <p class="text-muted mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-muted mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
-      <router-link class="btn btn-outline-primary " to="reservations">BOOK A TABLE</router-link>
-    </div>
+        <router-link class="btn btn-outline-primary" to="reservations">BOOK A TABLE</router-link>
+      </div>
 
-    <div class="empty"></div>
-    <div class="empty"></div>
+      <div class="empty"></div>
+      <div class="empty"></div>
 
-    <div class="bg container py-5" data-aos="fade-right">
-      <h2 class="cursive font-weight-bold mb-4">About</h2>
+      <div class="bg container py-5" data-aos="fade-right">
+        <h2 class="cursive font-weight-bold mb-4">About</h2>
 
-      <p class=" text-muted mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore delectus rem explicabo, id voluptas amet architecto incidunt minus dolor consequatur odio quaerat nesciunt obcaecati non. Fugiat molestias officia ad?</p>
+        <p
+          class="text-muted mx-auto"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore delectus rem explicabo, id voluptas amet architecto incidunt minus dolor consequatur odio quaerat nesciunt obcaecati non. Fugiat molestias officia ad?</p>
+      </div>
     </div>
   </div>
-</div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style lang="scss" scoped>
 .container-fluid {
@@ -44,10 +42,10 @@ export default {};
 .wrapper {
   background-image: url("../assets/img/interior.jpg");
   display: grid;
-  grid-row-gap: 3rem;
+  row-gap: 3rem;
 
   @media (min-width: 576px) {
-    grid-row-gap: 0;
+    row-gap: 0;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;
     position: absolute;

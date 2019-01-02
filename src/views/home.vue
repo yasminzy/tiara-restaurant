@@ -1,12 +1,12 @@
 <template>
-<div>
-  <home-header/>
-  <home-about/>
-  <app-banner name="our specialities"/>
-  <home-special/>
-  <app-banner name="outdoor" v-bind:height="50" empty/>
-  <home-menu/>
-</div>
+  <div>
+    <home-header />
+    <home-about />
+    <AppBanner name="our specialities" />
+    <home-special />
+    <AppBanner v-bind:height="50" name="outdoor" empty />
+    <home-menu />
+  </div>
 </template>
 
 <script>
@@ -26,6 +26,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-</style>

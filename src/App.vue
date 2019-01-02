@@ -1,8 +1,8 @@
 <template>
-<div class="d-flex flex-column mh-100">
-  <app-nav/>
-  <router-view data-aos="fade"/>
-</div>
+  <div class="d-flex flex-column mh-100">
+    <AppNav />
+    <RouterView data-aos="fade" />
+  </div>
 </template>
 
 <script>

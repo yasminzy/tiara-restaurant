@@ -1,9 +1,12 @@
 <template>
-<div v-bind:class="'container-fluid d-flex justify-content-center align-items-center parallax py-5 mh-' + height" v-bind:id="urlize(name)">
-  <div class="container" data-aos="fade">
-    <h2 class="mb-0 text-center text-uppercase text-white" v-show="!empty">{{ name }}</h2>
+  <div
+    v-bind:id="urlize(name)"
+    v-bind:class="'container-fluid d-flex justify-content-center align-items-center parallax py-5 mh-' + height"
+  >
+    <div class="container" data-aos="fade">
+      <h2 v-show="!empty" class="mb-0 text-center text-uppercase text-white">{{ name }}</h2>
+    </div>
   </div>
-</div>
 </template>
 
 <script>

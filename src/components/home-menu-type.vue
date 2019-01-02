@@ -1,21 +1,23 @@
 <template>
-<div class="container">
-  <h3 class="h5 mb-4 text-center text-muted text-uppercase">{{ title }}</h3>
+  <div class="container">
+    <h3 class="h5 mb-4 text-center text-muted text-uppercase">{{ title }}</h3>
 
-  <ul class="list-group mb-5 wrapper">
-    <li class="bg-transparent border-0 d-flex justify-content-between align-items-center list-group-item" v-for="(item, index) in typeFilter(menu, type)" v-bind:key="index">
-      <div>
-        <p class="font-weight-bold mb-2">{{ item.name }}</p>
+    <ul class="list-group mb-5 wrapper">
+      <li
+        v-for="(item, index) in typeFilter(menu, type)"
+        v-bind:key="index"
+        class="bg-transparent border-0 d-flex justify-content-between align-items-center list-group-item"
+      >
+        <div>
+          <p class="font-weight-bold mb-2">{{ item.name }}</p>
 
-        <small class="text-muted">{{ item.description }}</small>
-      </div>
+          <small class="text-muted">{{ item.description }}</small>
+        </div>
 
-      <span class="badge text-primary cursive">
-        £{{ item.price }}
-      </span>
-    </li>
-  </ul>
-</div>
+        <span class="badge text-primary cursive">£{{ item.price }}</span>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -49,12 +51,12 @@ export default {
 .wrapper {
   @media (min-width: 768px) {
     display: grid;
-    grid-column-gap: 2.5rem;
+    column-gap: 2.5rem;
     grid-template-columns: 1fr 1fr;
   }
 
   @media (min-width: 992px) {
-    grid-column-gap: 5rem;
+    column-gap: 5rem;
   }
 }
 

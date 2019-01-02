@@ -1,16 +1,16 @@
 <template>
-<div class="bg container-fluid mh-100 px-0">
-  <div class="container-fluid content py-5 mh-100">
-    <div class=" container mt-5">
-      <h1 class="mb-5">Contact Us</h1>
+  <div class="bg container-fluid mh-100 px-0">
+    <div class="container-fluid content py-5 mh-100">
+      <div class="container mt-5">
+        <h1 class="mb-5">Contact Us</h1>
 
-      <div class="row">
-        <contact-form/>
-        <contact-tel/>
+        <div class="row">
+          <ContactForm />
+          <ContactTel />
+        </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>

@@ -1,16 +1,20 @@
 <template>
-<div class="container-fluid d-flex flex-column justify-content-center align-items-center parallax" id="header">
-  <div class="container text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
-    <h1 class="cursive font-weight-bold">Tiara's</h1>
+  <div
+    id="header"
+    class="container-fluid d-flex flex-column justify-content-center align-items-center parallax"
+  >
+    <div
+      class="container text-center"
+      data-aos="fade-up"
+      data-aos-delay="300"
+      data-aos-duration="600"
+    >
+      <h1 class="cursive font-weight-bold">Tiara's</h1>
 
-    <p>BRITISH SPECIALITIES</p>
+      <p>BRITISH SPECIALITIES</p>
+    </div>
   </div>
-</div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style lang="scss" scoped>
 .container-fluid {
