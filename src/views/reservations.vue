@@ -4,15 +4,15 @@
       <div class="container mt-5">
         <h1 class="mb-5">Reservations</h1>
 
-        <p
-          class="mb-4"
-          data-aos="fade-left">Thank you for choosing Tiara's. To book a table, follow the steps below:
-          <ol>
-            <li>Choose the time and table.</li>
-            <li>Complete the reservation form.</li>
-            <li>Check your email for the booking confirmation.</li>
-          </ol>
+        <p class="mb-4" data-aos="fade-left">
+          Thank you for choosing Tiara's. To book a table, follow the steps
+          below:
         </p>
+        <ol>
+          <li>Choose the time and table.</li>
+          <li>Complete the reservation form.</li>
+          <li>Check your email for the booking confirmation.</li>
+        </ol>
 
         <iframe
           src="https://sagenda.net/Frontend/5a72824abff31c512cc3f840?retrieveFromCookies=False"
@@ -20,7 +20,8 @@
           frameborder="0"
           height="1100"
           min-width="576"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms" data-aos="fade-right"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms"
+          data-aos="fade-right"
           width="100%"
         />
       </div>

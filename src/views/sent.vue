@@ -4,10 +4,10 @@
       <div class="container mt-5 text-center">
         <h1 class="mb-5">Your Message is Sent</h1>
 
-        <p
-          class="mb-4 mx-auto"
-          data-aos="fade-left"
-        >Thank you for contacting us. We will get back to you soon. Have a nice day.</p>
+        <p class="mb-4 mx-auto" data-aos="fade-left">
+          Thank you for contacting us. We will get back to you soon. Have a nice
+          day.
+        </p>
       </div>
     </div>
   </div>

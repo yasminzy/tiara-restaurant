@@ -14,7 +14,7 @@
           name="name"
           placeholder="Name"
           required
-        >
+        />
       </div>
 
       <div class="form-group">
@@ -26,7 +26,7 @@
           aria-describedby="emailHelp"
           placeholder="Email"
           required
-        >
+        />
       </div>
 
       <div class="form-group">
@@ -40,10 +40,18 @@
         />
       </div>
 
-      <input type="hidden" name="_subject" value="Tiara - Contact">
-      <input type="hidden" name="_next" value="https://tiara.netlify.com/sent">
-      
-      <button type="submit" class="bg-transparent btn d-flex align-items-center pl-0">SEND
+      <input type="hidden" name="_subject" value="Tiara - Contact" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://tiara.netlify.com/sent"
+      />
+
+      <button
+        type="submit"
+        class="bg-transparent btn d-flex align-items-center pl-0"
+      >
+        SEND
         <ion-icon name="arrow-forward" />
       </button>
     </form>

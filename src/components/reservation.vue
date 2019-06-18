@@ -13,22 +13,20 @@
 
       <div class="btn">
         <q-btn
-          color="primary"
-          icon="arrow_back"
-          flat
-          small
           @click="$router.push('/')"
-        >
+          color="primary"
+          flat
+          icon="arrow_back"
+          small>
           GO BACK
         </q-btn>
 
         <q-btn
-          color="primary"
-          icon="call"
-          flat
-          small
           @click="launch('tel:1234567')"
-        >
+          color="primary"
+          flat
+          icon="call"
+          small>
           MANUAL BOOKING
         </q-btn>
       </div>

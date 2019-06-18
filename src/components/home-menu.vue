@@ -3,10 +3,14 @@
     <div data-aos="fade">
       <h2 class="cursive text-center">Menu</h2>
 
-      <hr class="mb-5">
+      <hr class="mb-5" />
     </div>
 
-    <HomeMenuType type="dinner" title="FOOD &amp; APERITIVES" data-aos="fade-down-right" />
+    <HomeMenuType
+      type="dinner"
+      title="FOOD &amp; APERITIVES"
+      data-aos="fade-down-right"
+    />
     <HomeMenuType type="dessert" title="DESSERTS" data-aos="fade-down-left" />
   </div>
 </template>

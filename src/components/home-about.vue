@@ -1,12 +1,19 @@
 <template>
-  <div id="reservation-about" class="bg-light container-fluid d-flex justify-content-center">
+  <div
+    id="reservation-about"
+    class="bg-light container-fluid d-flex justify-content-center"
+  >
     <div class="container parallax px-0 text-center wrapper">
       <div class="bg container py-5" data-aos="fade-left">
         <h2 class="cursive font-weight-bold mb-4">Reservations</h2>
 
-        <p class="text-muted mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-muted mb-4">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
 
-        <router-link class="btn btn-outline-primary" to="reservations">BOOK A TABLE</router-link>
+        <router-link to="reservations" class="btn btn-outline-primary"
+          >BOOK A TABLE</router-link
+        >
       </div>
 
       <div class="empty"></div>
@@ -15,9 +22,12 @@
       <div class="bg container py-5" data-aos="fade-right">
         <h2 class="cursive font-weight-bold mb-4">About</h2>
 
-        <p
-          class="text-muted mx-auto"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore delectus rem explicabo, id voluptas amet architecto incidunt minus dolor consequatur odio quaerat nesciunt obcaecati non. Fugiat molestias officia ad?</p>
+        <p class="text-muted mx-auto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore
+          delectus rem explicabo, id voluptas amet architecto incidunt minus
+          dolor consequatur odio quaerat nesciunt obcaecati non. Fugiat
+          molestias officia ad?
+        </p>
       </div>
     </div>
   </div>
