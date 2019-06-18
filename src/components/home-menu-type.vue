@@ -5,7 +5,7 @@
     <ul class="list-group mb-5 wrapper">
       <li
         v-for="(item, index) in typeFilter(menu, type)"
-        v-bind:key="index"
+        :key="index"
         class="bg-transparent border-0 d-flex justify-content-between align-items-center list-group-item"
       >
         <div>

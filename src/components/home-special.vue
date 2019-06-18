@@ -1,13 +1,16 @@
 <template>
-  <div v-cloak class="bg-light container-fluid d-flex justify-content-center py-5">
+  <div
+    v-cloak
+    class="bg-light container-fluid d-flex justify-content-center py-5"
+  >
     <div class="container wrapper p-0">
-      <div v-for="(item, index) in special(menu)" v-bind:key="index" class="item">
+      <div v-for="(item, index) in special(menu)" :key="index" class="item">
         <div class="bg-white img-wrapper" data-aos="fade-up-right">
           <img
-            v-lazy="'img/' + urlize(item.name) + '.jpg'"
-            v-bind:alt="item.name"
+            v-lazy="require('../assets/img/' + urlize(item.name) + '.jpg')"
+            :alt="item.name"
             class="d-block img-fluid hvr-grow mx-auto"
-          >
+          />
         </div>
 
         <div
@@ -17,7 +20,9 @@
           <h3 class="h4 mb-0">{{ item.name }}</h3>
 
           <p class="my-3 text-muted">{{ item.description }}</p>
-          <p class="font-weight-bold mb-0 text-primary">From ${{ item.price }}</p>
+          <p class="font-weight-bold mb-0 text-primary">
+            From ${{ item.price }}
+          </p>
         </div>
       </div>
     </div>

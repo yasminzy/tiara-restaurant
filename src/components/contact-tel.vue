@@ -3,7 +3,7 @@
     <ul class="list-group mb-5 wrapper">
       <li
         v-for="(item, index) in contact"
-        v-bind:key="index"
+        :key="index"
         class="bg-transparent border-left-0 border-right-0 border-top-0 list-group-item px-0"
       >
         <div>
